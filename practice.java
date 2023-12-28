@@ -9,6 +9,16 @@ int c = a+b;
 
 System.out.println(c);
 
+System.out.println("-----------");
+
+myMethod();
+
+}
+
+public static void myMethod(){
+
+System.out.println("My method calling");
+
 }
 
 }
